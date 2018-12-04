@@ -1,3 +1,9 @@
 venv/
 cache/
 session.txt
+
+day4/Grammar.tokens
+day4/GrammarLexer.py
+day4/GrammarLexer.tokens
+day4/GrammarListener.py
+day4/GrammarParser.py
