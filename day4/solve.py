@@ -83,8 +83,7 @@ def find_sleepiest_minute_guard():
         minute, value = find_sleepiest_minute(guard)
         if value > currentmax:
             currentmax = value
-        print(value)
-        gm, mm = guard, minute
+            gm, mm = guard, minute
     return int(gm) * mm
 
 
