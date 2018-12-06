@@ -22,7 +22,7 @@ def get_input(day: int) -> str:
     if cache_file.exists():
         return cache_file.read_text()
     text = requests.get('http://adventofcode.com/2018/day/{}/input'.format(day),
-                        cookies=cookies).text
+                        cookies=cookies).text.strip()
     cache_file.write_text(text)
     return text
 
